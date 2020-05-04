@@ -38,7 +38,7 @@ const Chart = () => {
     />
   ) : null;
 
-  return <div className="container">{lineChart}</div>;
+  return <div className={styles.container}>{lineChart}</div>;
 };
 
 export default Chart;
